@@ -1,0 +1,17 @@
+#lewy{
+    float: left;
+    width: 40%;
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+}
+#prawy{
+    float: left;
+    width: 40%;
+    border: 5px;
+    border-color: blue;
+    border-style: solid;
+}
+footer{
+    clear: both;
+}
