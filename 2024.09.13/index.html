@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabele i odnośniki</title>
+    <style>
+        section{
+            width: 50%;
+            float: left;
+        }
+        table, th, td{
+            border-collapse: collapse;
+            border: 3px solid aqua;
+            table-layout: fixed ;
+        }
+        table{
+            width: 100%;
+        }
+        th{
+            background-color: hotpink;
+        }
+        .kolor2{
+            background-color: lawngreen;
+        }
+        tr:nth-last-child(even){
+            background-color: darkviolet;
+        }
+        td:nth-child(even){
+            background-color: gray;
+        }
+        .kolor1{
+            padding: 10px;
+            border-spacing: 50px;
+        }
+        a:link{
+            background-color: purple;
+        }
+        a:visited{
+            background-color: chocolate;
+        }
+        a:hover{
+            background-color: darkolivegreen;
+        }
+        a:active{
+            background-color: deepskyblue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        nagłówek
+    </header>
+    <main>
+        <section>
+            <table>
+                <tr>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>a</td>
+                    <td colspan="2" class="kolor1">b,c</td>
+                    <td>d</td>
+                    <td class="kolor1">e</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td class="kolor1">f</td>
+                    <td>g</td>
+                    <td class="kolor1">h</td>
+                    <td>i</td>
+                    <td rowspan="2">j,o</td>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <td>k</td>
+                    <td class="kolor1">l</td>
+                    <td>m</td>
+                    <td class="kolor1">n</td>
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <td colspan="3" rowspan="2" class="kolor1">p, q, r, u, v, w </td>
+                    <td>s</td>
+                    <td class="kolor1">t</td>
+                </tr>
+                <tr>
+                    <th>6</th>
+                    <td class="kolor1">y</td>
+                    <td>z</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            sekcja 2 - linki, odnośniki
+            <a href="https://onet.pl" target="_blank">Tutaj jest link do strony onetu</a>
+            <a href="https://o2.pl"><button>Link do strony</button></a>
+        </section>
+    </main>
+    <footer>
+        stopka
+    </footer>
+</body>
+</html>
