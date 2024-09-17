@@ -1,0 +1,39 @@
+table{
+    width: 100%;
+}
+table, td, th{
+    border: 5px solid pink;
+    border-collapse: collapse;
+}
+th{
+    background-color: hotpink;
+}
+td{
+    padding:5px;
+}
+tr:nth-child(even){
+    background-color: darkcyan;
+}
+tr:nth-last-child(even){
+    background-color: gray;
+}
+td:nth-child(even){
+    background-color: aqua;
+}
+a:visited{
+    color: darkorange;
+}
+a:hover{
+    background-color: chartreuse;
+}
+a:active{
+    background-color:green;
+    text-decoration: underline;
+}
+a:link{
+    background-color: darkviolet;
+}
+p{
+    background-image: url('zdj.jpg');
+    background-repeat: no-repeat;
+}
