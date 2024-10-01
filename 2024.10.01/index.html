@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularze</title>
+</head>
+<body>
+    <header>
+        <h1>Formularze</h1>
+    </header>
+    <main>
+        <!-- formularz rozpoczynamy od  znacznika <form>, możemy w nim zawrzeć w jaki sposób będą przesyłane dane
+            action - definiuje jak mają być i gdzie przesłane dane z formularza
+            target - definiuje jak po zatwierdzeniu formularza ma zadziałać strona np. _blank - otwiera strone w nowej karcie, _self - wyświetla strone w tym samym oknie
+            method - określa metodę przysyłania danych w formularzu: get - przesyła jawnym tekstem dane, post - nie pokazuje danych na zewnątrz
+            autocoplete - możliwosć autouzupełniania danych przez przeglądarki
+            -->
+        <form action="index.html" target="_blank" method="get" autocomplete="on">
+            <label for="imie">Podaj imię</label>
+            <input type="text" id="imie" name="imie">
+            
+            <br>
+            <label for="radio">Wybierz płeć</label><br>
+            <input type="radio" id="kobieta" name="plec" value="kobieta">Kobieta<br>
+            <input type="radio" id="mezczyzna" name="plec" value="mezczyzna">Meżczyzna<br>
+            <input type="submit" value="Zatwierdź">
+            <br>
+        </form>
+    </main>
+    <section>
+        <form>
+            <!-- pole kombi - pole wyboru, selekt -->
+             <select id="kraj" name="kraj" size="3" multiple>
+                <option value="Polska">Polska</option>
+                <option value="Niemcy" selected>Niemcy</option>
+                <option value="Belgia">Belgia</option>
+                <option value="Ukraina">Ukraina</option>
+             </select>
+             <button type="button" onclick="alert('Czesc 4TIE!')">Naciśnij</button>
+        </form>
+        <form>
+            <label for="kolor"> Wybierz kolor</label>
+            <input type="color" id="kolor" name="kolor"><br>
+            <label for="zakres">Wybierz liczbę z zakresu</label>
+            <input type="range" id="zakres" name="zakres" min="0" max="100"><br>
+            <label for="data">Wybierz datę</label>
+            <input type="date" id="data" name="data">
+            <br>
+            <input type="submit" value="Zatwierdź">
+            <input type="reset" value="Resetuj">
+        </form>
+    </section>
+</body>
+</html>
