@@ -1,0 +1,43 @@
+main{
+    width: 900px;
+    height: 700px;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+#gora, #srodek,#dol{
+    width: 860px;
+    height: 180px;
+    background-color: bisque;
+    padding: 20px;
+}
+#srodek,#dol{
+    margin-top: 20px;
+}
+#gora1{
+    width: 300px;
+    height: 180px;
+    background-color: cadetblue;
+    float: left;
+}
+#gora2{
+    height: 180px;
+    float: left;
+    background-color: darkgrey;
+    width: 540px;
+    margin-left: 20px;
+}
+#dol1{
+    height: 180px;
+    background-color: cadetblue;
+    float: left;
+    width: 430px;
+}
+#dol2{
+    height: 180px;
+    float: left;
+    background-color: darkgrey;
+    margin-left: 20px;
+    width: 410px;
+}
