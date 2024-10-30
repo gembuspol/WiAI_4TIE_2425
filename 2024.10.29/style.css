@@ -1,0 +1,40 @@
+main{
+    width: 1200px;
+    height: 800px;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+#lewa{
+    width: 700px;
+    height: 760px;
+    padding: 20px;
+    background-color: bisque;
+    float: left;
+}
+#prawa{
+    width: 400px;
+    height: 760px;
+    padding: 20px;
+    background-color: beige;
+    float: left;
+    margin-left: 20px;
+}
+#lewa-gora, #lewa-dol1,#lewa-dol2{
+    background-color: aqua;
+}
+#lewa-gora{
+    width: 700px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+#lewa-dol1, #lewa-dol2{
+    width: 330px;
+    float: left;
+    border: 5px solid orange;
+    height: 530px;
+}
+#lewa-dol1{
+     margin-right: 20px; 
+}

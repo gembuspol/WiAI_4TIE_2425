@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section id="lewa">
+            <section id="lewa-gora">
+
+            </section>
+            <section id="lewa-dol1">
+
+            </section>
+            <section id="lewa-dol2">
+
+            </section>
+        </section>
+        <section id="prawa">
+            <form action="index.html" method="GET">
+                <fieldset>
+                    <legend>Formularz</legend>
+                    <input type="number" min="5" max="15" step="2" disabled="true" id="liczba">
+                    
+                </fieldset>
+            </form>
+            <button onclick="funkcja1()">Włącz</button>
+                    <script>
+                        function funkcja1(){
+                            document.getElementById("liczba").disabled=false;
+                        }
+                    </script>
+        </section>
+    </main>
+    
+</body>
+</html>
