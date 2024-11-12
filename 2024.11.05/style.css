@@ -1,0 +1,52 @@
+main{
+    width: 1000px;
+    height: 500px;
+    background-color: aqua;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+#lewa{
+    width: 300px;
+    height: 460px;
+    background-color: bisque;
+    float: left;
+    padding: 20px;
+    box-shadow: 10px 10px gray;
+    margin-right: 10px;
+}
+#prawa{
+    width: 620px;
+    padding: 10px;
+    padding-right: 20px;
+    height: 480px;
+    background-color: burlywood;
+    float: left;
+    box-shadow: 5px 10px blue;
+    border-radius: 30px;
+}
+#wewnatrz{
+    width: 600px;
+    height: 400px;
+    background-color: chartreuse;
+    border-radius: 10px;
+    border-top-left-radius: 140px;
+}
+button{
+    padding: 10px;
+    background-color: cyan;
+}
+input[type=reset]{
+    padding: 15px;
+    background-color: darkviolet;
+}
+input[type=checkbox]{
+    accent-color: hotpink;
+}
+input[type=range]{
+    accent-color: violet;
+}
+progress{
+    accent-color: hsl(319, 48%, 50%);
+}
