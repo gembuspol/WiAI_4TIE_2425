@@ -1,0 +1,74 @@
+header{
+    background-color: aqua;
+    height: 70px;
+    text-align: center;
+}
+main{
+    height: 300px;
+    background-color: bisque;
+    width: 70%;
+    float: left;
+}
+.prawa{
+    height: 300px;
+    width: 30%;
+    float: right;
+    background-color: aquamarine;
+}
+ main>p{
+    font-size: 40px;
+    background-color: crimson;
+} 
+p{
+    background-color: chocolate;
+}
+main>p:hover{
+    font-size: 60px;
+}
+
+main + p {
+    background-color: gold;
+    border: 1px solid gray;
+}
+main p{
+    font-weight: 900;
+}
+h3 ~ ul{
+    background-color: deepskyblue;
+}
+#p1{
+    /* podkreślenie tekstu */
+    text-decoration: underline;
+    /* nakładanie się liter */
+    letter-spacing: -5px;
+}
+#p2{
+    /* przekereślenie */
+    text-decoration: line-through;
+    /* odstęp między wyrazami */
+    word-spacing: 20px;
+}
+#p3{
+    /* podkreślenie nad tekstem */
+    text-decoration: overline;
+    /* zmiejszenie odstępu */
+    word-spacing: -10px;
+}
+#p4{
+    /* wcięcie tekstu */
+    text-indent: 20px;
+    /* białe znaki - normal, nowrap(musimy użyć >br> aby przenieść się do nowej linii), pre(tak jak napiszemy będzie zachowany tekst), pre-wrap (naturalnie zawija do nowej linii w przypadku zbyt długich tekstów), pre-line (zachowanie nowej lini, należy wpisać <br> aby tekst przeniusł sie do nowej linii) */
+    white-space: pre;
+}
+#p5{
+    /* cień tekstu */
+    text-shadow: 5px 5px 2px black;
+    /* paski przewijania na stronie (suwaki) visible - gdy wychodzi tekst poza granice, hidden - ukrywa zawartośc bloku, scroll  - widoczne paski przwijania, auto - dostsowuje się do zawartosci */
+    overflow: scroll;
+}
+#p6{
+    /* odstęp między literami */
+    letter-spacing: 5px;
+    /* dodawanie kropek jak tekst nie będize widoczny w bloku, w przypadku ustawienai hidden w overflow */
+    text-overflow: ellipsis;
+}
