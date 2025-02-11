@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
+</head>
+<body>
+    <header>
+        To jest JavaScript
+        <p id="paragraf"></p>
+    </header>
+    <main id="glowna">To jest blok główny</main>
+    <footer>
+        To jest stopka
+        <button onclick="fun1()">Naciśnij mnie</button>
+    </footer>
+    <script>
+        function fun1(){
+            document.getElementById("paragraf").innerHTML="Michał, Kamil patrzy w telefon.";
+            document.getElementById("glowna").style.backgroundColor="red";
+        }
+    </script>
+</body>
+</html>
